@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+
+<script>
+	
+	function pulalinha() {
+
+		document.write("<br>")
+	
+	}
+
+	function mostra(frase) {
+
+		document.write(frase)
+		pulalinha()
+	
+	}
+
+	var periodica = 28
+	var ano = 2019
+	var chegada = 1500
+	var geracao = (ano - chegada)/periodica
+
+	mostra("Em média, um casal tem filhos quando atinge a idade de 28 anos.");
+	
+	mostra("Seguindo essa média, se os portugueses chegaram em 1500 no Brasil, então, a primeira geração de brasileiros surgiu em 1528, a segunda em 1556 e assim por diante.");
+
+	mostra("Desde 1500 até o ano atual, quantas gerações se passaram?");
+
+	mostra("Se passaram " + geracao + "gerações.");
+
+</script>
